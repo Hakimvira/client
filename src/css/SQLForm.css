@@ -1,0 +1,90 @@
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em;
+}
+
+.formBox{
+    margin: 0.5em;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.labelForm{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.inputForm{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.dataTable{
+    margin-top: 1em;
+    width: 90%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    border:1px solid black;
+}
+
+.dataTable th{
+    background-color: rgb(173, 173, 173);
+}
+
+th p, td p{
+    margin-left: 0.5em;
+}
+
+.deleteColumn{
+    text-align: center;
+}
+
+.deleteButton{
+    background-color: red;
+    border: none;
+    padding: 1em;
+    transition: all 0.2s ease-in-out;
+}
+
+.deleteButton:hover{
+    background-color: rgb(255, 115, 115);
+}
+
+.deleteButton p {
+    margin: 0%;
+    color: white;
+}
+
+.sendButton{
+    background-color: rgb(0, 252, 0);
+    border: none;
+    padding: 1em;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.sendButton:hover{
+    background-color: rgb(95, 255, 95);
+}
+
+.sendButton p{
+    margin: 0%;
+    color: white;
+}
+
+.errMessage{
+    color: red;
+}
